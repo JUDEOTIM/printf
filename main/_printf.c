@@ -9,7 +9,7 @@
 int _printf(const char *format, ...)
 {
 	va_list args;
-	int i = 0, o, len = 0;
+	int i = 0, len = 0;
 
 	matchConversion match[] = {
 		{"%s", print_string},
